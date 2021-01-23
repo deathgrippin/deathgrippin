@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"> 
 <html>
 <head>
 <style>
@@ -62,16 +62,12 @@ div.menu {
   height: 100%;
 }
 
-.uncensor {
-  background: url("images/card-back.jpg") no-repeat;
-  display: inline-block;
-}
-
 .headertext {
   color: white;
   font-size: 32px;
-  margin-top: -18px;
+  margin-top: -28px;
 }
+
 .error {
   color: #8c2e0b;
   background-color: #fef5f1;
@@ -90,7 +86,7 @@ div.menu {
 }
 
 img.x {
-  position: sticky;
+  position: absolute;
   margin-left: -42px;
   margin-top: -2px;
   width: 24px;
@@ -101,16 +97,15 @@ img.x {
 .news_box {
   border-style: solid;
   border-color: white;
-  width: 500px;
+  width: 542px;
   padding-top: 15px;
   padding-left: 30px;
   padding-right: 30px;
   border-width: 1px;
   margin: auto;
 }
-  
+
 p.news_text {
-  width: 500px;
   text-align: left;
 }
 
@@ -140,10 +135,10 @@ p.quote {
 <br>
 <div class="news_box">
 <span style="font-weight:bold; font-size: 18px; color: red;">thirdworlds.net update</span> — 1/20/2021</p>
-<p class="news_text">thirdworlds.net has updated. The site has ditched PHP in favor of HTML for its pages, assumedly to mitigate the constant downtime index.php was experiencing since 2020. index.php is now main.html.</p>
+<p class="news_text">thirdworlds.net has updated. The site has ditched PHP in favor of HTML for its pages, assumedly to mitigate the near-constant downtime index.php was experiencing since 2020. index.php is now main.html. This change went unannounced.</p>
 <div class="error"><img class="x" src="https://web.archive.org/web/20200910195327im_/http://www.thirdworlds.net/misc/message-24-error.png">
 <em class="placeholder">PDOException</em>: SQLSTATE[HY000] [2002] Can&#039;t connect to local MySQL server through socket &#039;/var/lib/mysql/mysql.sock&#039; (2) in <em class="placeholder">lock_may_be_available()</em> (line <em class="placeholder">167</em> of <em class="placeholder">/home/thirdwor/public_html/includes/lock.inc</em>).</div>
-<p class="quote">The Drupal error message previously seen on /index.php</p>
+<p class="quote">The Drupal error message previously seen on index.php</p>
 </div>
 <br>
 <div class="news_box">
